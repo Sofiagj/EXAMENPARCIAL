@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.bandera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+/* Estilos para las franjas de la bandera */
+.franja {
+    width: 100%;
+    height: calc(100% / 3);
+}
+
+.superior {
+    background-color: fuchsia;
+}
+
+.central {
+    background-color: blue;
+}
+
+.inferior {
+    background-color: goldenrod;
+}
+
+/* Estilos para el símbolo central */
+.simbolo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+div p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    
+
+}
